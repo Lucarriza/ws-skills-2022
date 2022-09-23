@@ -6,30 +6,41 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'état (_state_) pour contrôler l'affichage d'un composant ❌ / ✔️
-- les composants enfants et les _props_ qu'on leur passe ❌ / ✔️
-- le déclenchement d'instructions en fonction des actions de l'utilisateur ❌ / ✔️
-- le déclenchement d'instructions en fonction de l'étape du cycle de vie du composant ou du changement de valeur de ses props ❌ / ✔️
-- l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant
-- l'état stocké dans un composant avec un _context provider_ et accessible dans ses descendants via `useContext` ❌ / ✔️
+- l'état (_state_) pour contrôler l'affichage d'un composant ✔️
+- les composants enfants et les _props_ qu'on leur passe ✔️
+- le déclenchement d'instructions en fonction des actions de l'utilisateur ✔️
+- le déclenchement d'instructions en fonction de l'étape du cycle de vie du composant ou du changement de valeur de ses props ✔️
+- l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant ❌
+- l'état stocké dans un composant avec un _context provider_ et accessible dans ses descendants via `useContext` ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+import React, {useState} from "react";
 
-[lien github](...)
+const counter = () => {
+  const [counter, setCounter]=useState(0);
+  
+  return(
+    <div>
+    <h1>{counter}</h1>
+    <button onClick={()=>setCounter(counter+=1)} value={counter}>Click me</button>
+    </div>
+  )
+}
 
-Description :
+### Utilisation dans un projet ✔️
+https://github.com/Lucarriza/OhMyQuote
 
-### Utilisation en production si applicable❌ / ✔️
+Description : Générateur de citations en react.
 
-[lien du projet](...)
+### Utilisation en production si applicable ✔️
+https://github.com/Lucarriza/OhMyQuote
 
-Description :
+Description : Générateur de citations en react.
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -42,14 +53,14 @@ Description :
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌ / ✔️
+### Point de blocage ✔️
 
-Description:
+Description: Je ne connais tous les hooks.
 
 Plan d'action : (à valider par le formateur)
 
-- action 1 ❌ / ✔️
-- action 2 ❌ / ✔️
+- action 1: Me renseigner sur la doc de react ❌ / ✔️
+- action 2: Faire + de projets react ❌ / ✔️
 - ...
 
 Résolution :
