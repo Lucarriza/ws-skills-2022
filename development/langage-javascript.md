@@ -6,32 +6,31 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage ✔️
+- les normes `ecmascript` ✔️
+- l'utilisation de l'`asynchrone` ✔️
+- les spécifités du mot-clef `this` ✔️
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté ✔️
 
-```javascript
-(e) => mc2;
-```
+const double(n)=>{
+  return n*2;
+}
+console.log(double(36));  ----> 72
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
+https://github.com/Lucarriza/Calculator
 
-[lien github](...)
+Description : Projet perso d'une calculatrice.
 
-Description :
+### J'ai utilisé ce langage en production ✔️
+https://github.com/Lucarriza/OhMyQuote
 
-### J'ai utilisé ce langage en production ❌ / ✔️
+Description : Générateur de citations.
 
-[lien du projet](...)
-
-Description :
-
-### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
+### J'ai utilisé ce langage en environement professionnel ❌
 
 Description :
 
@@ -44,15 +43,15 @@ Description :
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌ / ✔️
+### Point de blocage ✔️
 
-Description:
+Description: Je maîtrise mal certaines fonctions comme le reduce().
 
 Plan d'action : (à valider par le formateur)
 
-- action 1 ❌ / ✔️
-- action 2 ❌ / ✔️
-- ...
+- action 1: Continuer à faire des CodeWars jusqu'à atteindre 1kyu en JS => https://www.codewars.com/users/Lucarriza ❌ / ✔️
+- action 2: M'initier à CodinGames ❌ / ✔️
+- action 3: Lire beaucoup de docs ❌ / ✔️
 
 Résolution :
 
