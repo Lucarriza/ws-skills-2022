@@ -6,28 +6,28 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ❌ / ✔️
-- comment et pourquoi étendre une interface ❌ / ✔️
-- les classes et les decorators ❌ / ✔️
+- l'intéret de TypeScript dans l'IDE ✔️
+- les types de bases ✔️
+- comment et pourquoi étendre une interface ✔️
+- les classes et les decorators ❌ 
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
+const displayHelloName(name:string):void=>{console.log(`Hello ${name}`)};
+//Fonction typée qui prend en paramètre un "name" de type string et qui ne renvoie rien (pas de return) donc typé void, qui affiche en console "hello name";
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
+https://github.com/fblaizoud/pocli-front
 
-[lien github](...)
+Description : Projet 3 réalisé pour une association, codé en typescript.
 
-Description :
+### Utilisation en production si applicable ✔️
+https://github.com/fblaizoud/pocli-front
 
-### Utilisation en production si applicable❌ / ✔️
+Description : Projet 3 réalisé pour une association, codé en typescript.)
 
-[lien du projet](...)
-
-Description :
-
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -40,14 +40,14 @@ Description :
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌ / ✔️
+### Point de blocage ✔️
 
 Description:
 
 Plan d'action : (à valider par le formateur)
 
-- action 1 ❌ / ✔️
-- action 2 ❌ / ✔️
+- action 1: poursuivre mon apprentissage typescript ❌ / ✔️
+- action 2: développer de nouveaux projets ❌ / ✔️
 - ...
 
 Résolution :
