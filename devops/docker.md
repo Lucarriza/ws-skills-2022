@@ -6,28 +6,27 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la création d'une image docker ❌ / ✔️
-- l'éxécution d'un container ❌ / ✔️
-- l'orchestration de containers avec docker-compose ❌ / ✔️
+- la création d'une image docker ✔️
+- l'éxécution d'un container  ✔️
+- l'orchestration de containers avec docker-compose ✔️
 
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ❌
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ❌
 
 [lien github](...)
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
-
+### Utilisation en production si applicable❌
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -35,14 +34,13 @@ Description :
 
 ### Titre
 
-- lien
-- description
+https://hub.docker.com/ => hub des repos docker.
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌ / ✔️
+### Point de blocage ✔️
 
-Description:
+Description: Bases fragiles dans l'ensemble.
 
 Plan d'action : (à valider par le formateur)
 
